@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://getreelsbyg.netlify.app/sitemap.xml
+Sitemap: https://getreelsbyg.vercel.app/sitemap.xml
