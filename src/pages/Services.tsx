@@ -9,7 +9,7 @@ export default function Services() {
       <Helmet>
         <title>Services & Packages | {BUSINESS_INFO.name}</title>
         <meta name="description" content="Explore our professional services including video editing, graphic design, Instagram Reels, and brand identity creation." />
-        <link rel="canonical" href="https://getreelsbyg.netlify.app/services" />
+        <link rel="canonical" href="https://getreelsbyg.vercel.app/services" />
       </Helmet>
 
       <div className="sr-only">

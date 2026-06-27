@@ -9,7 +9,7 @@ export default function About() {
       <Helmet>
         <title>About {BUSINESS_INFO.founder} | {BUSINESS_INFO.name}</title>
         <meta name="description" content={`Learn more about ${BUSINESS_INFO.founder}, the creative force behind ${BUSINESS_INFO.name}. Expertise in video editing, graphic design, and Instagram Reels.`} />
-        <link rel="canonical" href="https://getreelsbyg.netlify.app/about" />
+        <link rel="canonical" href="https://getreelsbyg.vercel.app/about" />
       </Helmet>
       
       <div className="sr-only">

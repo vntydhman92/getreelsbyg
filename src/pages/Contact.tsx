@@ -8,7 +8,7 @@ export default function Contact() {
       <Helmet>
         <title>Contact {BUSINESS_INFO.name} | Book Our Services</title>
         <meta name="description" content="Get in touch to book video editing and graphic design services, collaborate on content creation, and tell your unique story." />
-        <link rel="canonical" href="https://getreelsbyg.netlify.app/contact" />
+        <link rel="canonical" href="https://getreelsbyg.vercel.app/contact" />
       </Helmet>
       
       <div className="sr-only">

@@ -12,7 +12,7 @@ export default function Home() {
         <title>{BUSINESS_INFO.name} | Expert Video Editing & Graphic Design</title>
         <meta name="description" content="Professional video editing and graphic design services. Specializing in Instagram Reels, promotional videos, and brand identity." />
         <meta name="keywords" content="Video Editor, Graphic Designer, Instagram Reels, Portfolio, Gautam Dhiman, GetReelsByG, Video Production" />
-        <link rel="canonical" href="https://getreelsbyg.netlify.app/" />
+        <link rel="canonical" href="https://getreelsbyg.vercel.app/" />
       </Helmet>
       
       <Hero />

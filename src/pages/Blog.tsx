@@ -8,7 +8,7 @@ export default function Blog() {
       <Helmet>
         <title>Blog & Insights | {BUSINESS_INFO.name}</title>
         <meta name="description" content="Read the latest tips, updates, and behind-the-scenes stories from GetReelsByG on video editing, graphic design, and content creation." />
-        <link rel="canonical" href="https://getreelsbyg.netlify.app/blog" />
+        <link rel="canonical" href="https://getreelsbyg.vercel.app/blog" />
       </Helmet>
       
       <div className="mb-16">
