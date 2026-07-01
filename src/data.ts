@@ -84,6 +84,11 @@ export const SERVICES = [
   }
 ];
 
+import bridalImg from './assets/images/portfolio_bridal_1782585878755.jpg';
+import cafeImg from './assets/images/portfolio_cafe_1782585898865.jpg';
+import weddingImg from './assets/images/portfolio_wedding_1782585914933.jpg';
+import gymImg from './assets/images/portfolio_gym_1782585929262.jpg';
+
 export const PORTFOLIO = [
   {
     title: 'Luxe Bridal Studio',
@@ -94,7 +99,7 @@ export const PORTFOLIO = [
       'Behind-the-Scenes Content'
     ],
     result: ['120K+ Views', '3X Increase in Engagement'],
-    image: 'https://images.unsplash.com/photo-1595954421407-b6495cb2e32a?auto=format&fit=crop&q=80&w=1000',
+    image: bridalImg,
     videoUrl: 'https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4' // Example video URL
   },
   {
@@ -106,7 +111,7 @@ export const PORTFOLIO = [
       'Instagram Stories'
     ],
     result: ['85K+ Reel Views', 'Increased Weekend Footfall'],
-    image: 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=1000'
+    image: cafeImg
   },
   {
     title: 'Royal Wedding Highlights',
@@ -117,7 +122,7 @@ export const PORTFOLIO = [
       'Social Media Teaser'
     ],
     result: ['200K+ Organic Views'],
-    image: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=1000'
+    image: weddingImg
   },
   {
     title: 'FitNation Gym',
@@ -128,7 +133,7 @@ export const PORTFOLIO = [
       'Promotional Campaign'
     ],
     result: ['500+ New Followers'],
-    image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=1000'
+    image: gymImg
   }
 ];
 

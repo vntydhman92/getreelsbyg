@@ -3,6 +3,7 @@ import { ChevronRight, Play } from 'lucide-react';
 import { BUSINESS_INFO } from '../data';
 import { Link } from 'react-router-dom';
 import Logo from './Logo';
+import heroBg from '../assets/images/hero_bg_1782585843756.jpg';
 
 export default function Hero() {
   return (
@@ -11,7 +12,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-[#000000]/80 via-[#000000]/60 to-[#000000] z-10" />
         <img
-          src="https://images.unsplash.com/photo-1595954421407-b6495cb2e32a?auto=format&fit=crop&q=80&w=2000"
+          src={heroBg}
           alt="Cinematic background"
           className="w-full h-full object-cover grayscale opacity-20"
         />

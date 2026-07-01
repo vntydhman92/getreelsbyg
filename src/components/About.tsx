@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { BUSINESS_INFO } from '../data';
+import aboutImg from '../assets/images/about_me_1782585861310.jpg';
 
 export default function About() {
   return (
@@ -15,7 +16,7 @@ export default function About() {
             <div className="relative aspect-[4/5] rounded-lg overflow-hidden glass-card">
               <div className="absolute inset-0 border border-white/10 rounded-lg z-10 pointer-events-none" />
               <img
-                src="https://images.unsplash.com/photo-1595954421407-b6495cb2e32a?auto=format&fit=crop&q=80&w=1000"
+                src={aboutImg}
                 alt="Gaurav Sharma filming"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
