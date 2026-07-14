@@ -1,0 +1,37 @@
+{
+  "collections": [
+    {
+      "name": "contacts",
+      "description": "Stores contact form submissions from the website.",
+      "securityRules": {
+        "read": "Nobody can read.",
+        "write": "Anyone can write (create), no updates or deletes from client."
+      },
+      "schema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of the user"
+          },
+          "email": {
+            "type": "string",
+            "description": "The email address of the user"
+          },
+          "subject": {
+            "type": "string",
+            "description": "The subject of the message"
+          },
+          "message": {
+            "type": "string",
+            "description": "The body of the message"
+          },
+          "createdAt": {
+            "type": "timestamp"
+          }
+        },
+        "required": ["name", "email", "message", "createdAt"]
+      }
+    }
+  ]
+}
